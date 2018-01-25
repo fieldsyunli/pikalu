@@ -1,40 +1,29 @@
-<header class="navbar-wrapper">
-    <div class="navbar navbar-black navbar-fixed-top">
-        <div class="container cl">
-            <a class="logo navbar-logo hidden-xs" href="http://www.pikalu.com/foo">pikalu</a>
-            <span class="logo navbar-slogan hidden-xs">简约 &middot; 免费 &middot; 网站</span>
-            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs JS-nav-toggle" href="javascript:;">&#xe667;</a>
-            <nav class="nav navbar-nav nav-collapse" role="navigation" id="Hui-navbar">
-                <ul class="cl">
-                    <li class="">
-                        <a href="http://www.pikalu.com/foo">首页</a>
-                    </li>
-                    <li>
-                        <a href="">写文章</a>
-                    </li>
-                    <li>
-                        <a href="">关注</a>
-                    </li>
-                    <li>
-                        <a href="">直播</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
-                <ul class="cl">
-                    <li>李运</li>
-                    <li class="dropDown dropDown_hover">
-                        <a href="#" class="dropDown_A">admin <i class="Hui-iconfont">&#xe6d5;</i></a>
-                        <ul class="dropDown-menu menu radius box-shadow">
-                            <li><a href="javascript:;">个人信息</a></li>
-                            <li><a href="#">切换账户</a></li>
-                            <li><a href="#">退出</a></li>
-                        </ul>
-                    </li>
-                    <li id="Hui-msg"> <a href="#" title="消息"><span class="badge badge-danger">1</span><i class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a> </li>
-                </ul>
-            </nav>
-            <nav class="navbar-userbar hidden-xs"></nav>
-        </div>
+<div class="blog-masthead">
+    <div class="container">
+        <ul class="nav navbar-nav navbar-left">
+            <li>
+                <a class="blog-nav-item " href="">首页</a>
+            </li>
+            <li>
+                <a class="blog-nav-item" href="">写作</a>
+            </li>
+            <li>
+                <a class="blog-nav-item" href="">关注</a>
+            </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <div>
+                    <img src="/storage/9f0b0809fd136c389c20f949baae3957/iBkvipBCiX6cHitZSdTaXydpen5PBiul7yYCc88O.jpeg" alt="" class="img-rounded" style="border-radius:500px; height: 30px">
+                    <a href="#" class="blog-nav-item dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">我的主页</a></li>
+                        <li><a href="">个人设置</a></li>
+                        <li><a href="">登出</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </div>
-</header>
+</div>

@@ -1,4 +1,6 @@
 <div id="sidebar" class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+
     <aside id="widget-welcome" class="widget panel panel-default">
         <div class="panel-heading">
             欢迎！
@@ -18,10 +20,15 @@
         <div class="panel-heading">
             专题
         </div>
+
         <ul class="category-root list-group">
             <li class="list-group-item">
-                <a href="">电竞</a>
                 <a href="">体育</a>
+            </li>
+            <li class="list-group-item">
+                <a href="">电竞</a>
+            </li>
+            <li class="list-group-item">
                 <a href="">科技</a>
             </li>
         </ul>
