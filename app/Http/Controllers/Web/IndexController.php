@@ -21,6 +21,7 @@ class IndexController extends Controller{
 //
 //		var_dump($res);exit;
 
+
 		return view('web.index');
 
 	}
